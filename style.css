@@ -613,7 +613,7 @@
     row-gap: 20px;
     column-gap: 20px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 1rem 8rem 8rem 8rem;
+    padding: 82px;
     /* background-color: #2196F3; */
 }
 .about-section4 .grid-container .container{
@@ -638,10 +638,7 @@
     color: white;
     font-size: 1rem;
 }
-.container:nth-child(3),
-.container:nth-child(7) {
-  grid-row: span 2;
-}
+
 
 
 
@@ -757,6 +754,10 @@
     #footer-foot .footer-content {
         text-align: center;
     }
+    about-section4 .grid-container {
+        /* margin-left: -40px; */
+        grid-template-columns: 1fr;
+      }
 
 }
 
@@ -768,6 +769,7 @@
     .navbar .navbar-collapse form {
         margin-right: 2rem;
     }
+    
 
 }
 

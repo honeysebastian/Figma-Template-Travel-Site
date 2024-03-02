@@ -523,6 +523,7 @@
 
 }
 
+
 #about-home .about-nav-context {
     text-align: center;
     color: white;
@@ -638,8 +639,47 @@
     color: white;
     font-size: 1rem;
 }
+#package-archieve-page{
+    width: 100%;
+    height: 700px;
+    background-image: url("./images/Rectangle\ 19290-acrchieve.png");
+    background-size: cover
 
+}
+#package-archieve-page .package-archieve-page-content{
+    text-align: center;
+    color: white;
 
+}
+#package-archieve-page .package-archieve-page-content h1 {
+    font-family: "Seaweed Script", cursive;
+    font-size: 6rem;
+    margin-top: 8rem;
+}
+
+#package-archieve-page .package-archieve-page-content h1 span {
+    font-size: 10rem;
+}
+.package-content{
+    width: 73%;
+    border: 1px solid;
+    height: 800px;
+    margin: -5rem 4rem 0 10rem;
+    background-color: white
+}
+.package-content .package-content-top-bar{
+    margin-top: 2rem;
+    background-color: rgb(190, 184, 184);
+}
+.package-content .package-content-top-bar i{
+    font-weight: 600;
+    font-size: 1.2rem;
+
+}
+.package-content .package-content-top-bar span{
+    font-weight: 700;
+
+}
 
 
 

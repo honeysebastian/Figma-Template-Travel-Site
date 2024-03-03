@@ -20,9 +20,9 @@
             <nav class="navbar navbar-expand-lg ">
               <div class="container-fluid mt-4">
                 <a class="navbar-brand" href="#">Travel <br>
-                  <img src="./images/Arrow 05.png" alt="">
+                  <img id="nav-arrow-img" src="./images/Arrow 05.png" alt="">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <button style="background: white;" class="navbar-toggler" type="button" data-bs-toggle="collapse"
                   data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                   aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -54,7 +54,7 @@
                   </ul>
                   <form class="d-flex" role="search">
                     <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
-                    <a href="#"><button class="button-style" type="submit">Get in Touch</button></a>
+                    <a href="#"><button id="nav-button-nav" class="button-style" type="submit">Get in Touch</button></a>
                   </form>
                 </div>
               </div>
@@ -80,121 +80,181 @@
                     <i class='bx bx-edit-alt me-2'></i><span>Name (A-z)</span>
                 </div>
             </div>
-            <!-- cards -->
-            <div class="package-content-cards">
-              <div class="container d-lg-flex justify-content-evenly">
+            <!-- <div class="d-lg-flex justify-content-evenly"> -->
+              <!-- cards -->
+              <div class="package-content-cards">
+                <div class="container d-lg-flex justify-content-evenly">
+                  <div class="row justify-content-center">
+                    <div class="card border-0 me-2" style="width: 18rem;">
+                      <img src="./images/Rectangle 19377.png" class="card-img-top" alt="...">
+                      <div class="package-top-icons d-flex justify-content-evenly align-items-center">
+                        <div class="p-calendar"><i class='bx bx-calendar-alt me-2'></i><span>12, September 2022</span></div>
+                        <div class="p-users"><i class='bx bx-group'></i><span>120+ People</span></div>
+                      </div>
+                      <div class="card-body">
+                        <h3 class="card-title">Switzerland</h3>
+                        <p class="card-text">Qui tempore voluptate qui quia commodi rem praesentium alias et.</p>
+                        <p class="price">1,100 $ <span class="ms-3"><i class="fa-solid fa-star"></i>5.0</span></p>
+                      </div>
+                    </div>
+                    <div class="card border-0 me-2" style="width: 18rem;">
+                      <img src="./images/Rectangle 19378.png" class="card-img-top" alt="...">
+                      <div class="package-top-icons d-flex justify-content-evenly align-items-center">
+                        <div class="p-calendar"><i class='bx bx-calendar-alt me-2'></i><span>12, September 2022</span></div>
+                        <div class="p-users"><i class='bx bx-group'></i><span>120+ People</span></div>
+                      </div>
+                      <div class="card-body">
+                        <h3 class="card-title">Berlin </h3>
+                        <p class="card-text">Qui tempore voluptate qui quia commodi rem praesentium alias et.</p>
+                        <p class="price">1,230 $ <span class="ms-3"><i class="fa-solid fa-star"></i>5.0</span></p>
+                      </div>
+                    </div>
+                
+                    
+                  </div>
+                  <div class="row justify-content-center">
+                    <div class="card border-0 me-2" style="width: 18rem;">
+                      <img src="./images/Rectangle 19379.png" class="card-img-top" alt="...">
+                      <div class="package-top-icons d-flex justify-content-evenly align-items-center">
+                        <div class="p-calendar"><i class='bx bx-calendar-alt me-2'></i><span>12, September 2022</span></div>
+                        <div class="p-users"><i class='bx bx-group'></i><span>120+ People</span></div>
+                      </div>
+                      <div class="card-body">
+                        <h3 class="card-title">Maldives</h3>
+                        <p class="card-text">Qui tempore voluptate qui quia commodi rem praesentium alias et.</p>
+                        <p class="price">3,000 $ <span class="ms-3"><i class="fa-solid fa-star"></i>5.0</span></p>
+                      </div>
+                    </div>
+                    <div class="card border-0 me-2" style="width: 18rem;">
+                      <img src="./images/Rectangle 19380.png" class="card-img-top" alt="...">
+                      <div class="package-top-icons d-flex justify-content-evenly align-items-center">
+                        <div class="p-calendar"><i class='bx bx-calendar-alt me-2'></i><span>12, September 2022</span></div>
+                        <div class="p-users"><i class='bx bx-group'></i><span>120+ People</span></div>
+                      </div>
+                      <div class="card-body">
+                        <h3 class="card-title">Baku</h3>
+                        <p class="card-text">Qui tempore voluptate qui quia commodi rem praesentium alias et.</p>
+                        <p class="price">1,440 $ <span class="ms-3"><i class="fa-solid fa-star"></i>5.0</span></p>
+                      </div>
+                    </div>
+                
+                    
+                  </div>
+                  <div class="row justify-content-center">
+                    <div class="card border-0 me-2" style="width: 18rem;">
+                      <img src="./images/Rectangle 19381.png" class="card-img-top" alt="...">
+                      <div class="package-top-icons d-flex justify-content-evenly align-items-center">
+                        <div class="p-calendar"><i class='bx bx-calendar-alt me-2'></i><span>12, September 2022</span></div>
+                        <div class="p-users"><i class='bx bx-group'></i><span>120+ People</span></div>
+                      </div>
+                      <div class="card-body">
+                        <h3 class="card-title">Torronto</h3>
+                        <p class="card-text">Qui tempore voluptate qui quia commodi rem praesentium alias et.</p>
+                        <p class="price">2,000 $ <span class="ms-3"><i class="fa-solid fa-star"></i>5.0</span></p>
+                      </div>
+                    </div>
+                    <div class="card border-0 me-2" style="width: 18rem;">
+                      <img src="./images/Rectangle 19382.png" class="card-img-top" alt="...">
+                      <div class="package-top-icons d-flex justify-content-evenly align-items-center">
+                        <div class="p-calendar"><i class='bx bx-calendar-alt me-2'></i><span>12, September 2022</span></div>
+                        <div class="p-users"><i class='bx bx-group'></i><span>120+ People</span></div>
+                      </div>
+                      <div class="card-body">
+                        <h3 class="card-title">Chinese</h3>
+                        <p class="card-text">Qui tempore voluptate qui quia commodi rem praesentium alias et.</p>
+                        <p class="price">1,210 $ <span class="ms-3"><i class="fa-solid fa-star"></i>5.0</span></p>
+                      </div>
+                    </div> 
+                  </div>
+               </div>
+              </div>
+              <!-- form & image -->
+              <div class="trip-form-image container d-flex justify-content-evenly align-items-center mt-5">
                 <div class="row justify-content-center">
-                  <div class="card border-0 me-2" style="width: 18rem;">
-                    <img src="./images/Rectangle 19377.png" class="card-img-top" alt="...">
-                    <div class="package-top-icons d-flex justify-content-evenly align-items-center">
-                      <div class="p-calendar"><i class='bx bx-calendar-alt me-2'></i><span>12, September 2022</span></div>
-                      <div class="p-users"><i class='bx bx-group'></i><span>120+ People</span></div>
-                    </div>
-                    <div class="card-body">
-                      <h3 class="card-title">Switzerland</h3>
-                      <p class="card-text">Qui tempore voluptate qui quia commodi rem praesentium alias et.</p>
-                      <p class="price">1,100 $ <span class="ms-3"><i class="fa-solid fa-star"></i>5.0</span></p>
-                    </div>
+                  <div class="trip-form">
+                    <form>
+                      <h1>Plan your Trip</h1>
+                      <p>Ex optio sequi et quos praesentium in nostrum labore nam rerum iusto aut magni nesciunt? Quo quidem neque iste expedita est dolo.</p>
+                      <div class="mb-3">
+                        <!-- <label for="exampleInputEmail1" class="form-label">Email address</label> -->
+                        
+                        <input type="text" class="form-control" id="exampleInputtext1" aria-describedby="emailHelp" placeholder="Search Tour">
+                      </div>
+                      <div class="mb-3">
+                        <!-- <label for="exampleInputPassword1" class="form-label">Password</label> -->
+                        <input type="text" class="form-control" id="exampleInputtext2" placeholder="Where To?">
+                      </div>
+                      <div class="mb-3">
+                        <!-- <label for="exampleInputPassword1" class="form-label">Password</label> -->
+                        <input type="date" class="form-control" id="exampleInputdate1" >
+                      </div>
+                      <div class="mb-3 form-check">
+                        <!-- <input type="checkbox" class="form-check-input" id="exampleCheck1"> -->
+                        <label style="font-weight: 800;font-size: 1.2rem;color: rgb(63, 61, 61);" class="form-check-label" for="exampleCheck1">Filter By Price</label>
+                      </div>
+                      <div class="mb-1 d-flex ps-4">
+                        <div style="width: 40px;height: 40px; background-color:  rgb(236, 94, 42);" class="f1"></div>
+                        <div style="width: 200px;height: 40px; background-color: white;" class="f2"></div>
+                        <div style="width: 40px;height: 40px; background-color:  rgb(236, 94, 42);" class="f3"></div>
+                      </div>
+                      <div class="mb-3">
+                        <label style="font-size: 1rem;color: rgb(110, 109, 109);" class="form-check-label" for="exampleCheck1">Price: $12 - $3600</label>
+
+                      </div>
+
+                      <button type="submit" class="button-style">Book Now</button>
+                    </form>
                   </div>
-                  <div class="card border-0 me-2" style="width: 18rem;">
-                    <img src="./images/Rectangle 19378.png" class="card-img-top" alt="...">
-                    <div class="package-top-icons d-flex justify-content-evenly align-items-center">
-                      <div class="p-calendar"><i class='bx bx-calendar-alt me-2'></i><span>12, September 2022</span></div>
-                      <div class="p-users"><i class='bx bx-group'></i><span>120+ People</span></div>
-                    </div>
-                    <div class="card-body">
-                      <h3 class="card-title">Berlin </h3>
-                      <p class="card-text">Qui tempore voluptate qui quia commodi rem praesentium alias et.</p>
-                      <p class="price">1,230 $ <span class="ms-3"><i class="fa-solid fa-star"></i>5.0</span></p>
-                    </div>
+                  <div class="trip-image">
+                    <img src="./images/273 1.png" alt="">
                   </div>
-              
-                  
-                </div>
-                <div class="row justify-content-center">
-                  <div class="card border-0 me-2" style="width: 18rem;">
-                    <img src="./images/Rectangle 19379.png" class="card-img-top" alt="...">
-                    <div class="package-top-icons d-flex justify-content-evenly align-items-center">
-                      <div class="p-calendar"><i class='bx bx-calendar-alt me-2'></i><span>12, September 2022</span></div>
-                      <div class="p-users"><i class='bx bx-group'></i><span>120+ People</span></div>
-                    </div>
-                    <div class="card-body">
-                      <h3 class="card-title">Maldives</h3>
-                      <p class="card-text">Qui tempore voluptate qui quia commodi rem praesentium alias et.</p>
-                      <p class="price">3,000 $ <span class="ms-3"><i class="fa-solid fa-star"></i>5.0</span></p>
-                    </div>
-                  </div>
-                  <div class="card border-0 me-2" style="width: 18rem;">
-                    <img src="./images/Rectangle 19380.png" class="card-img-top" alt="...">
-                    <div class="package-top-icons d-flex justify-content-evenly align-items-center">
-                      <div class="p-calendar"><i class='bx bx-calendar-alt me-2'></i><span>12, September 2022</span></div>
-                      <div class="p-users"><i class='bx bx-group'></i><span>120+ People</span></div>
-                    </div>
-                    <div class="card-body">
-                      <h3 class="card-title">Baku</h3>
-                      <p class="card-text">Qui tempore voluptate qui quia commodi rem praesentium alias et.</p>
-                      <p class="price">1,440 $ <span class="ms-3"><i class="fa-solid fa-star"></i>5.0</span></p>
-                    </div>
-                  </div>
-              
-                  
-                </div>
-                <div class="row justify-content-center">
-                  <div class="card border-0 me-2" style="width: 18rem;">
-                    <img src="./images/Rectangle 19381.png" class="card-img-top" alt="...">
-                    <div class="package-top-icons d-flex justify-content-evenly align-items-center">
-                      <div class="p-calendar"><i class='bx bx-calendar-alt me-2'></i><span>12, September 2022</span></div>
-                      <div class="p-users"><i class='bx bx-group'></i><span>120+ People</span></div>
-                    </div>
-                    <div class="card-body">
-                      <h3 class="card-title">Torronto</h3>
-                      <p class="card-text">Qui tempore voluptate qui quia commodi rem praesentium alias et.</p>
-                      <p class="price">2,000 $ <span class="ms-3"><i class="fa-solid fa-star"></i>5.0</span></p>
-                    </div>
-                  </div>
-                  <div class="card border-0 me-2" style="width: 18rem;">
-                    <img src="./images/Rectangle 19382.png" class="card-img-top" alt="...">
-                    <div class="package-top-icons d-flex justify-content-evenly align-items-center">
-                      <div class="p-calendar"><i class='bx bx-calendar-alt me-2'></i><span>12, September 2022</span></div>
-                      <div class="p-users"><i class='bx bx-group'></i><span>120+ People</span></div>
-                    </div>
-                    <div class="card-body">
-                      <h3 class="card-title">Chinese</h3>
-                      <p class="card-text">Qui tempore voluptate qui quia commodi rem praesentium alias et.</p>
-                      <p class="price">1,210 $ <span class="ms-3"><i class="fa-solid fa-star"></i>5.0</span></p>
-                    </div>
-                  </div> 
-                </div>
-             </div>
-            </div>
-            <!-- form & image -->
-            <div class="trip-form-image container d-flex justify-content-evenly align-items-center">
-              <div class="row justify-content-center">
-                <div class="trip-form">
-                  <form>
-                    <h1>Plan your Trip</h1>
-                    <p>Ex optio sequi et quos praesentium in nostrum labore nam rerum iusto aut magni nesciunt? Quo quidem neque iste expedita est dolo.</p>
-                    <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    </div>
-                    <div class="mb-3">
-                      <label for="exampleInputPassword1" class="form-label">Password</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1">
-                    </div>
-                    <div class="mb-3 form-check">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                  </form>
-                </div>
-                <div class="trip-form-image">
-                  <img src="./images/273 1.png" alt="">
                 </div>
               </div>
+            <!-- </div> -->
+          </div>
+          <!-- footer -->
+          <div id="footer-foot">
+            <div class="footer-content container d-lg-flex justify-content-evenly">
+                <div class="logo-content me-5 mb-5">
+                  <h2>Travel</h2>
+                  <img src="./images/Arrow 05.png" alt="">
+                  <p>Travel helps companies <br> manage payments easily.</p>
+                  <div class="footer-icons">
+                    <i class="fa-brands fa-linkedin me-2"></i>
+                    <i class="fa-brands fa-facebook-messenger me-2"></i>
+                    <i class="fa-brands fa-twitter me-2"></i>
+                    <i class="fa-solid fa-infinity me-2"></i>
+                  </div>
+                </div>
+                <div class="company me-5 mb-5">
+                  <h5>Company</h5>
+                  <ul>
+                    <li>About Us</li>
+                    <li>Careers</li>
+                    <li>Blog</li>
+                    <li>Pricing</li>
+                  </ul>
+                </div>
+                <div class="destination-footer me-5 mb-5">
+                  <h5>Destinations</h5>
+                  <ul>
+                    <li>Maldives</li>
+                    <li>Los Angelas</li>
+                    <li>Las Vegas</li>
+                    <li>Torronto</li>
+                  </ul>
+                </div>
+                <div class="newsletter">
+                  <h5>Join Our Newsletter</h5>
+                  <input type="text" placeholder="Your email address"><button class="button-style">Subscribe</button>
+                  <p>*  Will send you weekly updates for your better <br>
+                    tour packages.</p>
+                </div>
             </div>
-
+            <div class="footer-bottom"><p class="mt-5">Copyright @ Xpro 2022. All Rights Reserved.</p></div>
+          
+        
+        
           </div>
 
     </div>

@@ -662,14 +662,14 @@
 }
 .package-content{
     width: 73%;
-    border: 1px solid;
-    height: 800px;
+    /* border: 1px solid; */
+    height: auto;
     margin: -5rem 4rem 0 10rem;
     background-color: white
 }
 .package-content .package-content-top-bar{
-    margin-top: 2rem;
-    background-color: rgb(190, 184, 184);
+    background-color: rgb(216, 210, 210);
+    height: 79px;
 }
 .package-content .package-content-top-bar i{
     font-weight: 600;
@@ -680,7 +680,28 @@
     font-weight: 700;
 
 }
-
+.package-content-cards{
+    padding-top: 1.5rem;
+}
+.package-content-cards .card{
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+.package-content-cards .card:hover{
+    transform: scale(1.1);
+}
+.package-content-cards .package-top-icons {
+    background-color:rgb(236, 94, 42) ;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+}
+.package-content-cards .card-body > .price{
+    font-weight: 700;
+}
+.package-content-cards .card-body > .price >span >i{
+    color: rgb(236, 94, 42) ;
+}
 
 
 
@@ -787,6 +808,42 @@
         margin-left: -40px;
         grid-template-columns: 1fr;
       }
+      .package-content{
+        width: 92%;
+        /* border: 1px solid; */
+        height: auto;
+        margin: -5rem 0rem 0 1rem;
+        background-color: white;
+    }
+    #package-archieve-page .package-archieve-page-content h1 {
+        font-family: "Seaweed Script", cursive;
+        font-size: 3rem;
+        margin-top: 8rem;
+    }
+    
+    #package-archieve-page .package-archieve-page-content h1 span {
+        font-size: 7rem;
+    }
+    .package-content .package-content-top-bar i{
+        font-weight: 600;
+        font-size: 0.9rem;
+    
+    }
+    .package-content .package-content-top-bar span{
+        font-weight: 700;
+        font-size: 11px;
+    
+    }
+    .package-content .package-content-top-bar > .top-bar-item1{
+        border-right: solid 2px;
+    }
+    .package-content .package-content-top-bar > .top-bar-item2{
+        border-right: solid 2px;
+    }
+    .package-content .package-content-top-bar > .top-bar-item3{
+        border-right: solid 2px;
+    }
+   
 
 }
 

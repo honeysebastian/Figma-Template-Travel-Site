@@ -11,9 +11,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Namdhinggo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -44,8 +43,8 @@
                   Services
                 </a>
                 <ul class="dropdown-menu dropdown-list">
-                  <li><a class="dropdown-item" href=" ">Honeymoon Packages</a></li>
-                  <li><a class="dropdown-item" href="./packageArchievePage.html">Tour Packages</a></li>
+                  <li><a class="dropdown-item" href="./packageArchievePage.html">Honeymoon Packages</a></li>
+                  <li><a class="dropdown-item" href="#packages">Tour Packages</a></li>
                   <!-- <li><a class="dropdown-item" href="#">Musical Events</a></li>
                   <li><a class="dropdown-item" href="#">Build Package</a></li> -->
 
@@ -63,6 +62,7 @@
           </div>
         </div>
       </nav>
+      <div data-aos="fade-down">
       <div class="nav-context">
         <img src="./images/Vector 1.png" alt="">
         <h1>No matter where <br> you’re going to, we’ll <br> take you there</h1>
@@ -106,6 +106,7 @@
         </div>
       </div>
     </div>
+    </div>
     <!-- partners -->
     <div class="partners d-flex justify-content-evenly pt-2">
 
@@ -120,8 +121,12 @@
     </div>
     <!-- Services -->
     <div id="services" class="pt-5">
+
+      <div data-aos="fade-down">
       <h4 class=" sub-heading mt-5 mb-4">CATEGORY</h4>
       <h1 class=" main-heading mb-5">We Offer Best Services</h1>
+      </div>
+      <div data-aos="fade-up">
 
       <div class="service-cards ">
         <div class="container d-lg-flex justify-content-evenly">
@@ -135,7 +140,6 @@
                 <p class="card-text">sunt qui repellat saepe quo velit aperiam id aliquam placeat.</p>
               </div>
             </div>
-
             <div class="card p-3 mb-5 me-3 border-0" style="width: 15rem; text-align: center; border-radius: 50px;">
               <img src="./images/travelling 1.png" style="width: 150px;" class="card-img-top img-fluid ps-5 pe-1"
                 alt="...">
@@ -163,15 +167,19 @@
         </div>
       </div>
     </div>
+    </div>
     <!-- Romantic Destinations -->
     <div id="destinations" class="mt-5 d-lg-flex justify-content-sm-center justify-content-lg-evenly mb-5">
 
+      <div data-aos="fade-right">
       <div class="destinaion-images">
         <img class="img-fluid img1" src="./images/image 50.png" alt="">
         <img class="img-fluid img2" src="./images/Ellipse 3.png" alt="">
         <img class="img-fluid img3" src="./images/Ellipse 2.png" alt="">
         <img class="img-fluid img4" src="./images/Ellipse 1.png" alt="">
       </div>
+    </div>
+    <div data-aos="fade-left">
       <div class="destination-content">
         <h4 class="sub-heading">Honeymoon Specials</h4>
         <h2 class="main-heading">Our Romantic Tropical Destinations</h2>
@@ -180,6 +188,7 @@
           optio quibusdam!</p>
         <a href="./packageArchievePage.html"><button class="button-style">View Packages</button></a>
       </div>
+    </div>
 
     </div>
     <!-- Book a trip -->
@@ -219,22 +228,24 @@
           </div>
         </div>
       </div>
+      <div data-aos="flip-left">
       <div class="trip-illustration">
         <img class="trip-img1" src="./images/image 872.png" alt="">
         <img class="trip-img2" src="./images/Image-trip.png" alt="">
       </div>
-
     </div>
+
+    </div>  
     <div class="trip-separator">
+      <div data-aos="zoom-in">
       <h1 class="">Let’s Make Your <br>
         Next Holiday Amazing</h1>
       <img src="./images/Line-1.png" alt="">
-
-
+    </div>
     </div>
     <!-- Europe Sightseeing Tours -->
-    <div id="tours" class="mt-5 d-lg-flex justify-content-sm-center justify-content-lg-evenly mb-5">
-
+    <div id="tours" class="mt-5 d-lg-flex justify-content-sm-center justify-content-lg-evenly mb-5" data-aos="zoom-in">
+      
       <div class="destination-content tour-content">
         <h4 class="sub-heading">Promotion</h4>
         <h2 class="main-heading">We Provide You Best Europe Sightseeing Tours</h2>
@@ -242,6 +253,7 @@
           quis eius quo eligendi corrupti et fugiat nulla qui soluta recusandae in maxime quasi aut ducimus illum aut
           optio quibusdam!</p>
         <a href="./packageArchievePage.html"><button class="button-style mb-5">View Packages</button></a>
+        
         <div class="destination-cards d-none d-lg-block ">
           <div class="container">
             <img class="img-fluid" src="./images/Rectangle 19295.png" alt="">
@@ -288,8 +300,11 @@
     </div>
     <!-- packages -->
     <div id="packages">
+      <div data-aos="fade-down">
       <h4 class=" sub-heading mt-5 mb-4">trendy</h4>
       <h1 class=" main-heading mb-5">Our Trending Tour <br> Packages</h1>
+    </div>
+      <div data-aos="fade-up">
       <div class="package-cards">
         <div class="container d-lg-flex justify-content-evenly">
           <div class="row justify-content-center">
@@ -364,7 +379,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div></div>
     </div>
     <!-- testimonials -->
     <div id="testimonials">
@@ -482,5 +497,9 @@
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </html>

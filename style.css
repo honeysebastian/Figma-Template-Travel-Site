@@ -786,7 +786,7 @@
 .tour-info-header .package-archieve-page-content h1 span {
     font-size: 10rem;
 }
-.tour-info-header .package-content{
+.tour-info-content .package-content{
     width: 73%;
     /* border: 1px solid; */
     height: auto;
@@ -796,23 +796,121 @@
     padding-bottom: 4rem;
     box-shadow: 12px 0 15px -4px rgba(240, 241, 241, 0.8), -12px 0 8px -4px rgba(240, 241, 241, 0.8), 0 12px 15px -4px rgba(240, 241, 241, 0.8);
 }
-.tour-info-header .package-content .package-content-top-bar{
-    /* background-color: rgb(216, 210, 210); */
+.tour-info-content .package-content .package-content-top-bar{
+    background-color: rgb(216, 210, 210);
     height: 79px;
 }
-.tour-info-header .package-content .package-content-top-bar i{
+.tour-info-content .package-content .package-content-top-bar i{
     font-weight: 600;
     font-size: 1.2rem;
 
 }
-.tour-info-header .package-content .package-content-top-bar span{
+.tour-info-content .package-content .package-content-top-bar span{
     font-weight: 700;
 
 }
-.tour-info-header .package-content .top-bar-item1{
-    /* background-color: white; */
-    border: solid 1px;
+.tour-info-content .package-content .top-bar-item1{
+    color: rgb(44, 43, 43);
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 50px;
+    
 }
+.tour-info-content .package-content .package-tour-info-content{
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.tour-info-content .package-content .package-tour-info-content .header-content #span1{
+    margin-left: 3rem;
+    color: rgb(236, 94, 42) ;
+    font-size: 20px;
+}
+.tour-info-content .package-content .package-tour-info-content .header-content #span2{
+    color: grey;
+    font-size: 15px;
+}
+.tour-info-content .package-content .package-tour-info-content .header-content i{
+    color: rgb(241, 188, 39);
+}
+.tour-info-content .package-content .package-tour-info-content .info-content .info-list{
+    width: 600px;
+    height: 600px;
+    /* background-color: burlywood; */
+    position: relative;
+}
+.tour-info-content .package-content .package-tour-info-content .info-content .info-list .info-list-head{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    color: rgb(236, 94, 42);
+}
+.tour-info-content .package-content .package-tour-info-content .info-content .info-list .info-list-content{
+    width: 50%;
+    height: 100%;
+    left: 50%;
+    position: absolute;
+    /* background-color: rgb(8, 8, 8); */
+    color: black;
+}
+.tour-info-content .package-content .package-tour-info-content .info-content .info-list .info-list-content p{
+    margin-bottom: 48px;
+}
+
+.tour-info-content .package-content .package-tour-info-content .from-our-gallery .tour-grid-container img{
+    width: 250px; 
+}
+.tour-info-content .package-content .package-tour-info-content .from-our-gallery .tour-grid-container .container{
+    transition: transform 0.3s ease-in;
+    cursor: pointer;
+}
+.tour-info-content .package-content .package-tour-info-content .from-our-gallery .tour-grid-container .container:hover{
+    transform: scale(1.1);
+}
+.tour-info-form-image .trip-form-image .trip-form{
+    width: 379px;
+    height: 751px;
+    margin-left: -27px;
+
+}
+.tour-info-form-image .trip-form-image .trip-form form{
+    width: 379px;
+    height: 753px;
+    background-color: #f8f8f5;
+    text-align: center;
+    padding: 1rem;
+
+}
+.tour-info-form-image .trip-form-image .trip-image{
+    width: 497px;
+    height: 383px;
+    margin-top: 88px;
+    position: relative;
+}
+.tour-info-form-image .trip-form-image .trip-image >img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.tour-info-form-image .trip-form-image form .form-control{
+    height: 3rem;
+}
+.tour-plan .package-content .top-bar-item2{
+    color: rgb(44, 43, 43);
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 50px;
+    
+}
+.tour-plan .package-content .tour-plan-content{
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.tour-plan .package-content .tour-plan-content .tour-plan-content-div1 .line-pic{
+    height: 233px;
+
+}
+
+
 
 
 @media (max-width:600px) {
@@ -897,6 +995,14 @@
     #footer-foot .footer-content {
         text-align: center;
     }
+    #about-home .about-nav-context h1 {
+        font-family: "Seaweed Script", cursive;
+        font-size: 4rem;
+    }
+    
+    #about-home .about-nav-context h1 span {
+        font-size: 8rem;
+    }
 
     #about-section1 .about-section1-pics {
         margin-top: 129px;
@@ -928,6 +1034,7 @@
         margin: -5rem 0rem 0 1rem;
         background-color: white;
     }
+   
     #package-archieve-page .package-archieve-page-content h1 {
         font-family: "Seaweed Script", cursive;
         font-size: 3rem;
@@ -961,6 +1068,60 @@
         position: relative;
         width: 407px
     }
+    .tour-info-content .package-content{
+        width: 92%;
+        /* border: 1px solid; */
+        height: auto;
+        margin: -5rem 0rem 0 1rem;
+        background-color: white;
+    }
+    .tour-info-content .package-content .package-tour-info-content .info-content .info-list{
+        width: 352px;
+        height: 712px;
+        /* background-color: burlywood; */
+        position: relative;
+    }
+    .tour-info-content .package-content .package-tour-info-content .info-content .info-list .info-list-head{
+        width: 27%;
+        height: 100%;
+        position: absolute;
+        color: rgb(236, 94, 42);
+        font-size: 20px;
+    }
+    .tour-info-content .package-content .package-tour-info-content .info-content .info-list .info-list-head h5{
+        font-size: 13px;
+
+    }
+
+    .tour-info-content .package-content .package-tour-info-content .info-content .info-list .info-list-content{
+        width: 75%;
+    height: 100%;
+    left: 30%;
+        position: absolute;
+        /* background-color: rgb(8, 8, 8); */
+        color: black;
+    }
+    .tour-info-content .package-content .package-tour-info-content .info-content .info-list .info-list-content p{
+        margin-bottom: 44px;
+        font-size: 13px;
+    }
+    .tour-info-content .package-content .package-tour-info-content .from-our-gallery{
+        margin-top: -142px;
+    }
+    .tour-info-header .package-archieve-page-content h1 {
+        font-family: "Seaweed Script", cursive;
+        font-size: 4rem;
+        margin-top: 6rem;
+    }
+    
+    .tour-info-header .package-archieve-page-content h1 span {
+        font-size: 6rem;
+    }
+    .tour-plan .package-content .tour-plan-content .tour-plan-content-div1 .line-pic{
+        height: 329px;
+    
+    }
+ 
    
 
 }
